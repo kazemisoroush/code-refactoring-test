@@ -1,0 +1,6 @@
+{
+  "name": "Go Refactor Tool Dev",
+  "image": "mcr.microsoft.com/devcontainers/go:dev-1.24",
+  "postCreateCommand": "go mod tidy"
+}
+  

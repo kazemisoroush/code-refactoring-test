@@ -1,1 +1,3 @@
-# code-refactoring-test
+# Code Refactoring Test
+
+This is used for integration testing.
