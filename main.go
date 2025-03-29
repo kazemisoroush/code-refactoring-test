@@ -1,3 +1,4 @@
+// Package main is the entry point of the application
 package main
 
 import "fmt"
@@ -7,6 +8,7 @@ func main() {
 	fmt.Println(ValidateUser("", "Doe", 17))
 }
 
+// ValidateUser checks if the provided user information is valid
 func ValidateUser(firstName, lastName string, age int) string {
 	if firstName == "" {
 		return "Error: First name is required"
